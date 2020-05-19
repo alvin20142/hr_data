@@ -224,7 +224,7 @@ y2=hr_data_dm['churn']
 x2_train, x2_test, y2_train, y2_test = train_test_split(x2, y2, test_size=0.2, random_state=42)
 
 x2_train_scaler=StandardScaler()
-
+cript of the notebook hr_assignment.py
 #fit scaler
 x2_train_scaler.fit(x2_train)
 
